@@ -56,6 +56,8 @@ const Hero = () => {
                   width={1024}
                   height={490}
                   alt="AI"
+                  onClick={() => window.open('http://127.0.0.1:5173/', '_blank')}
+                  style={{ cursor: 'pointer' }}
                 />
 
                 {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" /> */}

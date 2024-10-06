@@ -106,7 +106,7 @@ import {
       status: "progress",
       imageUrl: pedosphere,
       colorful: true,
-      url: "#login",
+      url: "https://space-jack-2d.vercel.app/",
     },
     {
       id: "1",
