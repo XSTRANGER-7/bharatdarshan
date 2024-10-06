@@ -1,0 +1,29 @@
+/* game.css */
+.gift-box {
+    @apply bg-blue-500 text-white p-5 rounded-lg shadow-lg text-center cursor-pointer transition-transform transform hover:scale-105;
+  }
+  
+  .quiz-cards {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4;
+  }
+  
+  .quiz-card {
+    @apply bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105;
+  }
+  
+  .options {
+    @apply mt-2 flex flex-col space-y-2;
+  }
+  
+  .option-button {
+    @apply bg-purple-600 text-white py-2 rounded-md transition hover:bg-purple-700 focus:outline-none;
+  }
+  
+  .selected {
+    @apply bg-teal-500;
+  }
+  
+  .answer {
+    @apply mt-2 font-semibold text-gray-700;
+  }
+  

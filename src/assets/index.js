@@ -47,10 +47,11 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/alterimage-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/alterimage-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+import pedosphere from "./roadmap/pedosphere.jpg";
+import roadmap2 from "./roadmap/roadmap2.webp";
+import roadmap3 from "./roadmap/roadmap3.webp";
+import roadmap4 from "./roadmap/roadmap4.jpg";
+import roadmap5 from "./roadmap/roadmap5.webp";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -124,10 +125,11 @@ export {
   coins,
   done,
   hero,
-  roadmap1,
+  pedosphere,
   roadmap2,
   roadmap3,
   roadmap4,
+  roadmap5,
   undone,
   notification1,
   notification2,

@@ -24,10 +24,11 @@ import {
     raindrop,
     recording01,
     recording03,
-    roadmap1,
+    pedosphere,
     roadmap2,
     roadmap3,
     roadmap4,
+    roadmap5,
     searchMd,
     slack,
     sliders04,
@@ -39,13 +40,13 @@ import {
     yourReact,
     yourNode,
     yourHard
-  } from "../assets";
-  
+  } from "../assets"; 
+
   export const navigation = [
     {
       id: "0",
-      title: "Features",
-      url: "#features",
+      title: "Games Features",
+      url: "#roadmap",
     },
     // {
     //   id: "1",
@@ -59,8 +60,8 @@ import {
     },
     {
       id: "2",
-      title: "Roadmap",
-      url: "#roadmap",
+      title: "Games",
+      url: "#features",
     },
     {
       id: "3",
@@ -99,37 +100,50 @@ import {
   export const roadmap = [
     {
       id: "0",
-      title: "Automate File Management",
-      text: "Revolutionizing File Management with Cutting-Edge AI/ML Technology",
+      title: "Pedosphere",
+      text: "Awaring the knowledge of soil and its importance in the environment through Games.",
       date: "June 2024",
       status: "progress",
-      imageUrl: roadmap1,
+      imageUrl: pedosphere,
       colorful: true,
+      url: "#login",
     },
     {
       id: "1",
-      title: "Gamification",
-      text: "Unlock Your Childhood Fantasies with Game-Like Hand Gestures for Effortless Control!",
+      title: "Hydroshpere",
+      text: "Awareness of water and its importance in the environment through Games.",
       date: "June 2024",
       status: "progress",
       imageUrl: roadmap2,
+      url: "#login",
     },
     {
       id: "2",
-      title: "File Summarizer",
-      text: "Transforming Documents into Digestible Insights with AI-Powered Summarization",
+      title: "Atmosphere",
+      text: "Awareness of air and its importance in the environment through Games.",
       date: "June 2024",
       status: "progress",
       imageUrl: roadmap3,
+      url: "#login",
     },
-    // {
-    //   id: "3",
-    //   // title: "Ready!!",
-    //   // text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    //   date: "June 2024",
-    //   status: "progress",
-    //   imageUrl: roadmap4,
-    // },
+    {
+      id: "3",
+      title: "Puzzles",
+      text: "Puzzles Based Games.",
+      date: "June 2024",
+      status: "progress",
+      imageUrl: roadmap4,
+      url: "https://puzzle-nft-virid.vercel.app/",
+    },
+    {
+      id: "4",
+      title: "Mystery Box",
+      text: "Random Quizzes will be asked.",
+      date: "June 2024",
+      status: "progress",
+      imageUrl: roadmap5,
+      url: "/game",
+    },
   ];
   
   export const collabText =
