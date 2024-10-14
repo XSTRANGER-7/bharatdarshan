@@ -113,7 +113,7 @@ const App = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           variants={animationVariants}
         >
-          {/* <Services /> */}
+          <Services />
         </motion.div>
 
         {/* Footer */}
