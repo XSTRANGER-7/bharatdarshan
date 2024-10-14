@@ -24,7 +24,7 @@ import {
     raindrop,
     recording01,
     recording03,
-    pedosphere,
+    virtualtour,
     roadmap2,
     roadmap3,
     roadmap4,
@@ -45,7 +45,7 @@ import {
   export const navigation = [
     {
       id: "0",
-      title: "Games Features",
+      title: "Features",
       url: "#roadmap",
     },
     // {
@@ -100,18 +100,18 @@ import {
   export const roadmap = [
     {
       id: "0",
-      title: "Pedosphere",
-      text: "Awaring the knowledge of soil and its importance in the environment through Games.",
+      title: "Virtual Tour",
+      text: "Gves you a virtual tour of the environment or the Historical place",
       date: "June 2024",
       status: "progress",
-      imageUrl: pedosphere,
+      imageUrl: virtualtour,
       colorful: true,
-      url: "https://space-jack-2d.vercel.app/",
+      // url: "https://space-jack-2d.vercel.app/",
     },
     {
       id: "1",
-      title: "Hydroshpere",
-      text: "Awareness of water and its importance in the environment through Games.",
+      title: "3D Models",
+      text: "3D Models of the Historical place",
       date: "June 2024",
       status: "progress",
       imageUrl: roadmap2,
@@ -119,8 +119,8 @@ import {
     },
     {
       id: "2",
-      title: "Atmosphere",
-      text: "Awareness of air and its importance in the environment through Games.",
+      title: "Educational Content",
+      text: "Educational Content for the Historical place",
       date: "June 2024",
       status: "progress",
       imageUrl: roadmap3,
@@ -128,12 +128,12 @@ import {
     },
     {
       id: "3",
-      title: "Puzzles",
-      text: "Puzzles Based Games.",
+      title: "Earn NFT or Tokens through Games and Redeem in Market Place",
+      text: "Tours Based Quizzes.",
       date: "June 2024",
       status: "progress",
       imageUrl: roadmap4,
-      url: "https://puzzle-nft-virid.vercel.app/",
+      url: "https://quiz-blockchainn.vercel.app/",
     },
     {
       id: "4",

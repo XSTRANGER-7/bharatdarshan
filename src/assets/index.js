@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./namaste-logo.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -23,7 +23,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/intro.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -47,10 +47,10 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import pedosphere from "./roadmap/pedosphere.jpg";
-import roadmap2 from "./roadmap/roadmap2.webp";
-import roadmap3 from "./roadmap/roadmap3.webp";
-import roadmap4 from "./roadmap/roadmap4.jpg";
+import virtualtour from "./roadmap/virtual-tour.jpg";
+import roadmap2 from "./roadmap/model.jpg";
+import roadmap3 from "./roadmap/content.jpg";
+import roadmap4 from "./roadmap/quizimg.jpg";
 import roadmap5 from "./roadmap/roadmap5.webp";
 import undone from "./roadmap/undone.svg";
 
@@ -125,7 +125,7 @@ export {
   coins,
   done,
   hero,
-  pedosphere,
+  virtualtour,
   roadmap2,
   roadmap3,
   roadmap4,
