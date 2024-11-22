@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@metamask/sdk-react-ui": "^0.29.2",
     "@react-three/drei": "^9.114.0",
     "@react-three/fiber": "^8.17.9",
     "@splinetool/react-spline": "^4.0.0",

@@ -20,11 +20,11 @@
   scroll-behavior: smooth
 }
 
-@layer base {
+/* @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
   }
-}
+} */
 
 .rotate-45 {
   @apply rotate-[45deg]
@@ -94,15 +94,20 @@
 
 
 
+*{
+  box-sizing: border-box;
+  border-color: none;
+}
+.tw-bg-white{
+  color:black;
+}
 
 
 
 
 
 
-
-
-
+/* 
 
 
 
@@ -135,8 +140,8 @@
 .option.selected {
   background-color: lightgreen;
   border-color: green;
-}
-
+} */
+/* 
 button {
   padding: 10px 20px;
   background-color: green;
@@ -150,4 +155,4 @@ button {
 
 button:hover {
   background-color: darkgreen;
-}
+} */

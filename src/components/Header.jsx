@@ -7,6 +7,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { MetaMaskButton } from "@metamask/sdk-react-ui"
 
 const Header = () => {
   const pathname = useLocation();
@@ -73,9 +74,12 @@ const Header = () => {
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        {/* <Button className="hidden lg:flex" href="#login">
           Connect wallet
-        </Button>
+        </Button> */}
+
+        <MetaMaskButton theme={"light"} color="white"></MetaMaskButton>
+
 
         <Button
           className="ml-auto lg:hidden"

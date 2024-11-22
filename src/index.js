@@ -10,24 +10,34 @@
 //   </React.StrictMode>
 // );
 
+import { MetaMaskUIProvider } from "@metamask/sdk-react-ui";
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import App from "./App";
+import NewPage from "../src/Newpage"; // Your new page component
+import "./index.css";
+import Game from "./components/Game";
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import App from './App';
-import NewPage from '../src/Newpage'; // Your new page component
-import './index.css';
-import Game from './components/Game';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/new-page" element={<NewPage />} />
-        <Route path="/game" element={<Game />} />
-      </Routes>
-    </BrowserRouter>
+    <MetaMaskUIProvider
+      sdkOptions={{
+        dappMetadata: {
+          name: "Bharat Darshan",
+        },
+        infuraAPIKey: process.env.INFURA_API_KEY,
+        // Other options.
+      }}
+    >
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/new-page" element={<NewPage />} />
+          <Route path="/game" element={<Game />} />
+        </Routes>
+      </BrowserRouter>
+    </MetaMaskUIProvider>
   </React.StrictMode>
 );
